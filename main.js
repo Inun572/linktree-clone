@@ -1,4 +1,8 @@
 import './style.css';
+import instagram from './assets/img/instagram_6422200.png';
+import github from './assets/img/github-sign.png';
+import youtube from './assets/img/youtube_6422215.png';
+
 import { footer } from './components/footer';
 
 document.querySelector('#app').innerHTML = `<div id="root">
@@ -10,16 +14,16 @@ document.querySelector('#app').innerHTML = `<div id="root">
   </div>
   <div class="social">
     <a href="https://instagram.com/helmiainun" target="_blank">
-      <img src="./assets/img/instagram_6422200.png" alt="instagram" />
+      <img src=${instagram} alt="instagram" />
     </a>
     <a
       href="https://www.youtube.com/channel/UCV6lZ1qluM95bZCnxl6_lmg"
       target="_blank"
     >
-      <img src="./assets/img/youtube_6422215.png" alt="youtube" />
+      <img src=${youtube} alt="youtube" />
     </a>
     <a href="https://github.com/helmiainun" target="_blank">
-      <img src="./assets/img/github-sign.png" alt="github" />
+      <img src=${github} alt="github" />
     </a>
   </div>
   <div class="links">
