@@ -30,7 +30,11 @@ document.querySelector('#app').innerHTML = `<div id="root">
     >
       My Portfolio
     </a>
-    <a class="link" href="#"> Yaudaaaah </a>
+    <a class="link" href="https://www.linkedin.com/in/helmiainunnaim/"
+    target="_blank"
+    >
+        LinkedIn Profile
+    </a>
     <a class="link" href="#"> Aja aja ada </a>
     <a class="link" href="#"> Belum ketawa udah apa apa </a>
   </div>
