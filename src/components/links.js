@@ -1,5 +1,5 @@
 export const links = () => {
-  return `<div class="links">
+  return `<div class="flex flex-col justify-center items-center gap-4">
     <a
       class="link"
       href="http://helmi-ainun-portfolio.vercel.app/"
