@@ -82,7 +82,7 @@
   text-align: center;
 }
 
-.profile img {
+.profile > img {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
